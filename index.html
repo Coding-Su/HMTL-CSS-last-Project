@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary pb-5 pt-5">    
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SuyaKim</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EVENT</a>
+            <ul style="display: none;">
+              <li><a href="#">전체제품</a></li>              
+              <li><a href="#">제품유형</a></li>              
+              <li><a href="#">제품루틴</a></li>              
+              <li><a href="#">스페셜 세트</a></li>              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              COMMUNITY
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">BRAND</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/main_img.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>고양이는 사랑입니다</h5>
+          <!-- <p>Some representative placeholder content for the first slide.</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/main_img2.jpg" class="d-block w-100">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/main_img3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="text-center pt-4 pb-4">
+    <h2>사진 좀 보고 가실게요.</h2>
+  </div>
+
+  <div class="container mb-5">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <img src="./images/img1.jpg" class="img-thumbnail">
+        <img src="./images/img2.jpg" class="img-thumbnail">
+        <img src="./images/img3.jpg" class="img-thumbnail">
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="./images/img4.jpg" class="img-thumbnail">
+        <img src="./images/img5.jpg" class="img-thumbnail">
+        <img src="./images/img6.jpg" class="img-thumbnail">
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="./images/img7.jpg" class="img-thumbnail">
+        <img src="./images/bani.jpg" class="img-thumbnail w-100">        
+      </div>
+    </div>
+  </div>
+
+  <footer>
+
+    <div class="container">
+
+      <div class="left-line pb-5 pt-5 text-center col">
+        <div class="row">
+          <div class="col">SuyaKim</div>
+          <div class="col"><a href="#">이용약관</a></div>
+          <div class="col"><a href="#">개인정보처리방침</a></div>
+          <div class="col"><a href="#">제휴문의</a></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="pb-1 pt-1 text-center">
+          <span class="ps-5">(주)고양이</span>
+          <span class="ps-5">대표이사:고냥</span>
+          <span class="ps-5">사업자등록번호 : 123-12-12345
+            <a href="#" class="buisness">[사업자정보확인]</a>
+          </span>
+          <span class="ps-5">고객센터:055-123-1234</span>
+          <span class="ps-5">팩스:055-1234-1234</span>
+        </div>
+        <div class="pb-1 pt-1 text-center">
+          <span>주소 : 창원시 진해구 고양로(고양동, 고양빌딩)</span>
+          <span class="px-5">통신판매업 신고번호 : 제1234-창원진해1234호</span>
+          <span>개인정보보호책임자 : 고양이</span>
+        </div>
+      </div>  
+
+    </div>
+
+    <div class="container">
+
+      <div class="right-line">
+        <h2>TEL. 070-1234-1234</h2>
+      </div>
+    </div>
+
+  </footer>
+
+  
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+.buisness {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: burlywood;
+  display: flex;
+  
+}
+
+.left-line {
+  justify-content: left;
+}
+
+.left-line a {
+  text-decoration: none;
+  color: black;    
+}
+
+.right-line {
+  justify-content: end;
+}
+
+@media screen and (max-width:48rem) {
+  footer {
+    display: block;
+  }
+}
